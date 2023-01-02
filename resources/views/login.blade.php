@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="logo">
-        <img class="logi-sign" src="/pic/301220021_519483296798508_1235047204078362737_n.jpg" alt="">
+        <img class="logi-sign" src="/images/301220021_519483296798508_1235047204078362737_n.jpg" alt="">
     </div>
     <div class="login-box">
       <h1>Login</h1>
