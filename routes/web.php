@@ -27,3 +27,6 @@ Route::get('/signup', function () {
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/index2', function () {
+    return view('index2');
+});
