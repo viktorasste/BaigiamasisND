@@ -22,7 +22,7 @@ function listUpcomingEvents() {
             timeMin: displayedDate.toDate().toISOString(),
             timeMax: moment(displayedDate).add(42, 'days').toDate().toISOString()
         },
-        success: function(response) {
+        success: function (response) {
             var allDates = [];
             if (response.items.length > 0) {
                 for (var i = 0; i < response.items.length; i++) {
@@ -34,9 +34,9 @@ function listUpcomingEvents() {
                         var currentDate = moment(event.start.date);
                         var lastDate = moment(event.end.date);
 
-                        while(currentDate < lastDate){
-                          allDates.push(currentDate.valueOf());
-                          currentDate.add(1,'days');
+                        while (currentDate < lastDate) {
+                            allDates.push(currentDate.valueOf());
+                            currentDate.add(1, 'days');
                         }
                     } else {
                         if (event.start.date == -1) {
@@ -48,7 +48,7 @@ function listUpcomingEvents() {
             bookedDates = allDates;
             fillCalendar();
         },
-        error: function(response) {
+        error: function (response) {
             console.log(response.responseText);
         }
     });
@@ -91,7 +91,7 @@ function fillCalendar() {
 
     firstMonday = moment(firstDayOfThisMonth).subtract(daysAfterMonday, 'days');
     var i = 0;
-    jQuery("#calendar tbody td").each(function() {
+    jQuery("#calendar tbody td").each(function () {
         addDay(moment(firstMonday).add(i, 'days'), jQuery(this)[0]);
         i++;
     });
@@ -113,18 +113,19 @@ function addDay(day, td) {
     day.startOf('day');
     td.className = "";
 }
-    if (day.isSameOrAfter(moment().startOf('day'))) {
-        if (day.month() != displayedDate.month()) {
-            td.className += " past";
-        }
-
-        if (bookedDates.indexOf(day.toDate().getTime()) >= 0) {
-            td.className += " booked";
-        } else {
-            td.className += " available";
-        }
-    } else {
+console.log(day);
+if (day.isSameOrAfter(moment().startOf('day'))) {
+    if (day.month() != displayedDate.month()) {
         td.className += " past";
     }
 
-    td.innerHTML = day.date();
+    if (bookedDates.indexOf(day.toDate().getTime()) >= 0) {
+        td.className += " booked";
+    } else {
+        td.className += " available";
+    }
+} else {
+    td.className += " past";
+}
+
+td.innerHTML = day.date();

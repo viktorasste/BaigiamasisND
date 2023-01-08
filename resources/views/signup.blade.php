@@ -15,7 +15,7 @@
         <img class="logi-sign" src="/images/301220021_519483296798508_1235047204078362737_n.jpg" alt="">
     </div>
     <div class="signup-box">
-      <h1>Sign Up asjajshdjhsadaskld</h1>
+      <h1>Sign Up dfsfsdf</h1>
       
       <form>
         <label>First Name</label>
