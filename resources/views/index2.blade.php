@@ -89,6 +89,25 @@
                 
               </div>
         </div>
+        <div ng-app="app">
+  <div ng-controller="MainController">
+    <h1> 
+      <span class="l">Flex</span><span class="r">Calendar</span>
+    </h1>
+    <p>An Elegant Calendar Built With Angular.js</p>
+    <div class="wrapp">
+      <flex-calendar options="options" events="events"></flex-calendar>
+    </div>
+    <br />
+    <!-- <p>
+      <iframe src="https://ghbtns.com/github-btn.html?user=Russian60&repo=flex-calendar&type=star&count=true&size=large" frameborder="0" scrolling="0" width="115px" height="30px"></iframe>
+      
+      <iframe src="https://ghbtns.com/github-btn.html?user=Russian60&repo=flex-calendar&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+      
+      
+    </p> -->
+  </div>
+</div>
         <footer>
           
           <div class="fa_social">
