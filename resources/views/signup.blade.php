@@ -15,7 +15,7 @@
         <img class="logi-sign" src="/images/301220021_519483296798508_1235047204078362737_n.jpg" alt="">
     </div>
     <div class="signup-box">
-      <h1>Sign Up</h1>
+      <h1>Sign Up asjajshdjhsadaskld</h1>
       
       <form>
         <label>First Name</label>
@@ -28,7 +28,7 @@
         <input type="password" placeholder="" />
         <label>Confirm Password</label>
         <input type="password" placeholder="" />
-        <input type="button" value="Signup" />
+        <input type="button" value="Sign Up" />
       <closeform></closeform></form>
       <p>
         By clicking the Sign Up button,you agree to our <br />
