@@ -20,7 +20,7 @@
         <input type="email" placeholder="" />
         <label>Password</label>
         <input type="password" placeholder="" />
-        <input type="button" value="Submit" />
+        <input type="button" value="Login" />
       <closeform></closeform></form>
     </div>
     <p class="para-2">

@@ -28,7 +28,7 @@
         <input type="password" placeholder="" />
         <label>Confirm Password</label>
         <input type="password" placeholder="" />
-        <input type="button" value="Submit" />
+        <input type="button" value="Signup" />
       <closeform></closeform></form>
       <p>
         By clicking the Sign Up button,you agree to our <br />
