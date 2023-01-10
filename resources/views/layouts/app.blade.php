@@ -34,10 +34,10 @@
                     </ul> -->
 
                     <!-- Right Side Of Navbar -->
-                    <!-- <ul class="navbar-nav ms-auto"> -->
+                    <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->
-                        <!-- @guest
-                            @if (Route::has('login'))
+                        @guest
+                             @if (Route::has('login'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </li>

@@ -40,6 +40,11 @@ Route::get('/login2', function () {
     return view('login2');
 });
 
+Route::get('/register', function () {
+    return view('register');
+});
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

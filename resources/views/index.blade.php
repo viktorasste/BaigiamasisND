@@ -37,7 +37,7 @@
                   <a href="/login">Login</a>
                 </li>
                   <li>
-                    <a href="/signup">Sign Up</a>
+                    <a href="/register">Register</a>
                 </li>
               </ul>
             </div>
