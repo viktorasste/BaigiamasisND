@@ -28,7 +28,6 @@ angular
     }
   ]);
 
-  console.log(date);
 
 // Library
 !(function () {
