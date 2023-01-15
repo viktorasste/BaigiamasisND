@@ -1,22 +1,22 @@
 @extends('layouts.app')
 
 @section('content')
-<link rel="stylesheet" href="/css/login.css" />
+<link rel="stylesheet" href="/css/login.css"/>
 <div class="container">
 <div class="logo">
         <img class="logi-sign" src="/images/301220021_519483296798508_1235047204078362737_n.jpg" alt="">
     </div>
-    <div class="login-box">
+    <div class="login-box2">
       <h1>Register</h1>
 
-                <div class="">
-                    <form method="POST" action="{{ route('register') }}">
+                <div>
+                    <form class="" method="POST" action="{{ route('register') }}">
                         @csrf
 
-                        <div class="">
-                            <label for="name">{{ __('Name') }}</label>
+                            <div>
+                                <label for="name">{{ __('Name') }}</label>
 
-                            <div class="">
+                                <div>
                                 <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                 @error('name')
@@ -24,13 +24,13 @@
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
+                                 </div>
                             </div>
-                        </div>
 
-                        <div >
+                        <div>
                             <label for="email" >{{ __('Email Address') }}</label>
 
-                            <div >
+                            <div>
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
 
                                 @error('email')
@@ -41,10 +41,10 @@
                             </div>
                         </div>
 
-                        <div >
+                        <div>
                             <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
 
-                            <div >
+                            <div>
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
 
                                 @error('password')
@@ -55,10 +55,10 @@
                             </div>
                         </div>
 
-                        <div >
+                        <div>
                             <label for="password-confirm" class="col-md-4 col-form-label text-md-end">{{ __('Confirm Password') }}</label>
 
-                            <div >
+                            <div>
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>

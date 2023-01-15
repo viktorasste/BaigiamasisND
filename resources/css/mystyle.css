@@ -38,7 +38,8 @@ li{
     box-shadow: 2px 2px 10px;
     /* box-shadow: 0 2px 4px rgb(0 0 0 / 10%);  */
 }
-header{
+header {
+    margin-top: 40px;
     background-image: url(/images/300642445_519483293465175_3573586539729186628_n.jpg);
     height: 312px;
     text-align: center;

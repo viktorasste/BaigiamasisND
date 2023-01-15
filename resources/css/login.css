@@ -79,4 +79,11 @@ body {
     border-radius: 100%;
   }
   
+  .login-box2 {
+    width: 360px;
+    height: 500px;
+    margin-left: 500px;
+    border-radius: 3px;
+    background-color: white;
+  }
   

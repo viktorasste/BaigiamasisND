@@ -9,29 +9,15 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
   <script src="jscript/calendar.js" defer></script>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/mystyle.css">
+    <!-- <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <title>Vežimėlių nuoma</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <div class="nav_bar">
-        <header>
-            <img class="logo_pic" src="/images/301220021_519483296798508_1235047204078362737_n.jpg" alt="">
-            <ul>
-                <li>
-                    <a href="#">Kontaktai</a>
-                </li>
-                <li>
-                    <a href="#">Nuoma</a>
-                </li>
-                <li class="li_right">
-                    <a href="#">Apie</a>
-                </li>
-            </ul>
-        </header>
-        <div class="signlogin">
+<div class="signlogin">
               <ul>
                 <li>
                   <a href="/login">Login</a>
@@ -41,12 +27,28 @@
                 </li>
               </ul>
             </div>
+    <div class="nav_bar">
+        <header>
+            <img class="logo_pic" src="/images/301220021_519483296798508_1235047204078362737_n.jpg" alt="">
+            <!-- <ul>
+                <li>
+                    <a href="#">Kontaktai</a>
+                </li>
+                <li>
+                    <a href="#">Nuoma</a>
+                </li>
+                <li class="li_right">
+                    <a href="#">Apie</a>
+                </li>
+            </ul> -->
+        </header>
+        
     </div>
         <div class="main">
             <div class="carousel_pic">
                 <img class="carousel_vezim" src="/images/61214232_685469581887804_3222479632515203072_n.jpg" alt="">
             </div>
-            <div id="calendar">
+            <!-- <div id="calendar">
               <div id="calHeader"><h1 id="tabName">Lapkritis 2022</h1>
                 <div id="left" onclick="previousMonth()"> </div>
                 <div id="right" onclick="nextMonth()"> </div>
@@ -108,7 +110,7 @@
                  
                 </tbody>
               </table>
-            </div>
+            </div> -->
         
             <div id="form_uzsakymo" class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon1"></span>
