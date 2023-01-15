@@ -11,7 +11,7 @@ body {
     border-radius: 3px;
   }
   
-  .login-box {
+.login-box {
     width: 360px;
     height: 500px;
     margin: auto;
@@ -75,15 +75,18 @@ body {
     
   }
 
-  .logi-sign {
+.logi-sign {
     border-radius: 100%;
   }
   
-  .login-box2{
+.login-boxbox {
     width: 360px;
     height: 500px;
-    margin-left: 500px;
+    margin: 450px;
     border-radius: 3px;
     background-color: white;
   }
-  
+
+.offset-md-4{
+  margin-top: 15px !important;
+ }

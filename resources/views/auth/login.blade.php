@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<link rel="stylesheet" href="/css/login.css" />
+<link rel="stylesheet" href="/css/login.css">
 <div class="container">
 <div class="logo">
     <img class="logi-sign" src="/images/301220021_519483296798508_1235047204078362737_n.jpg" alt="">
