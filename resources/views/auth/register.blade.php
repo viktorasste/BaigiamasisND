@@ -10,7 +10,7 @@
       <h1>Register</h1>
 
                 <div>
-                    <form class="" method="POST" action="{{ route('register') }}">
+                    <form  method="POST" action="{{ route('register') }}">
                         @csrf
 
                             <div>
@@ -74,6 +74,4 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
 @endsection
