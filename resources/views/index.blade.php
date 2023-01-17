@@ -48,71 +48,8 @@
             <div class="carousel_pic">
                 <img class="carousel_vezim" src="/images/61214232_685469581887804_3222479632515203072_n.jpg" alt="">
             </div>
-            <!-- <div id="calendar">
-              <div id="calHeader"><h1 id="tabName">Lapkritis 2022</h1>
-                <div id="left" onclick="previousMonth()"> </div>
-                <div id="right" onclick="nextMonth()"> </div>
-              </div>
-              <table>
-                <thead>
-                  <tr id="colHeader">
-                    <td>MON</td>
-                    <td>TUE</td>
-                    <td>WEN</td>
-                    <td>THU</td>
-                    <td>FRI</td>
-                    <td>SAT</td>
-                    <td>SUN</td>
-                  </tr>
-                </thead>
-                <tbody id="calContent">
-                  <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>6</td>
-                    <td>7</td>
-                  </tr>
-                  <tr>
-                    <td>8</td>
-                    <td>9</td>
-                    <td>10</td>
-                    <td>11</td>
-                    <td>12</td>
-                    <td>13</td>
-                    <td>14</td>
-                  </tr>
-                  <tr>
-                    <td>15</td>
-                    <td>16</td>
-                    <td>17</td>
-                    <td>18</td>
-                    <td>19</td>
-                    <td>20</td>
-                    <td>21</td>
-                  </tr>
-                  <tr>
-                    <td>22</td>
-                    <td>23</td>
-                    <td>24</td>
-                    <td>25</td>
-                    <td>26</td>
-                    <td>27</td>
-                    <td>28</td>
-                  </tr>
-                  <tr>
-                    <td>29</td>
-                    <td>30</td>
-                    <td>31</td>
-                    </tr>
-                 
-                </tbody>
-              </table>
-            </div> -->
-        
-            <div id="form_uzsakymo" class="input-group mb-3">
+                  
+            <!-- <div id="form_uzsakymo" class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon1"></span>
                 <input type="text" class="form-control" placeholder="Vardas Pavardė" aria-label="Username" aria-describedby="basic-addon1">
               </div>
@@ -123,20 +60,20 @@
               </div>
               
               
-              <div class="input-group mb-3">
+              <div class="input-group mb-3"> -->
                 <!-- <span class="input-group-text" id="basic-addon3">https://example.com/users/</span> -->
               
-                <input type="date" class="form-control" id="basic-url" 
+                <!-- <input type="date" class="form-control" id="basic-url" 
                 aria-describedby="basic-addon3">
                 
               </div>
-              <div class="input-group mb-3">
+              <div class="input-group mb-3"> -->
                 <!-- <span class="input-group-text" id="basic-addon3">https://example.com/users/</span> -->
               
-                <input type="time" class="form-control" id="basic-url" 
-                aria-describedby="basic-addon3">
+                <!-- <input type="time" class="form-control" id="basic-url" 
+                aria-describedby="basic-addon3"> -->
                 
-              </div>
+              <!-- </div>
               
               <div class="input-group mb-3">
                 <span class="input-group-text">$</span>
@@ -145,22 +82,22 @@
               </div>
               
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username"> -->
                 <!-- <span class="input-group-text">@</span> -->
                 <!-- <input type="text" class="form-control" placeholder="" aria-label="Server"> -->
-              </div>
+              <!-- </div>
               
               <div class="input-group">
                 <span class="input-group-text">Komentaras:</span>
                 <textarea class="form-control" aria-label="With textarea"></textarea>
               </div>
-              <div class="input-group mb-3">
+              <div class="input-group mb-3"> -->
                 <!-- <span class="input-group-text" id="basic-addon3">https://example.com/users/</span> -->
               
-                <input type="submit" class="form-control" id="basic-url" 
+                <!-- <input type="submit" class="form-control" id="basic-url" 
                 aria-describedby="basic-addon3">
                 
-              </div>
+              </div> -->
         </div>
         <footer>
           
