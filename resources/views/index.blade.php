@@ -7,7 +7,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
-    <script src="jscript/calendar.js" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/mystyle.css">
     <!-- <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet"> -->
@@ -83,10 +82,10 @@
       <img class="d-block w-100" src="{{asset('images/301220021_519483296798508_1235047204078362737_n.jpg')}}" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{asset('images/61214232_685469581887804_3222479632515203072_n.jpg')}}" alt="Second slide">
+      <img class="d-block w-80" src="{{asset('images/61214232_685469581887804_3222479632515203072_n.jpg')}}" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{asset('images/300642445_519483293465175_3573586539729186628_n.jpg')}}" alt="Third slide">
+      <img class="d-block w-80" src="{{asset('images/66199600_712644059170356_1051043127999070208_n.jpg')}}" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -253,6 +252,10 @@
     </div>
 </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>
