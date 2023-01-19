@@ -98,25 +98,10 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="{{asset('images/301220021_519483296798508_1235047204078362737_n.jpg')}}" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="{{asset('images/61214232_685469581887804_3222479632515203072_n.jpg')}}" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="{{asset('images/300642445_519483293465175_3573586539729186628_n.jpg')}}" alt="Third slide">
-    </div>
-  </div> -->
+
 
 </div>
-    <!-- <div class="carousel_pic">
-        <img class="carousel_vezim" src="/images/61214232_685469581887804_3222479632515203072_n.jpg" alt="">
-    </div> -->
-
-</div>
+    
 <footer>
 
     <div class="fa_social">
