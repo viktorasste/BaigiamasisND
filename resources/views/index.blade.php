@@ -78,14 +78,17 @@
 <div class="main">
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
+    <div class="blabla">
+        <H1 class="h1h1">Išsirink</H1>
+    </div>
     <div class="carousel-item active">
-      <img class="d-block w-100" src="{{asset('images/301220021_519483296798508_1235047204078362737_n.jpg')}}" alt="First slide">
+        <img class="d-block w-100" src="{{asset('images/301220021_519483296798508_1235047204078362737_n.jpg')}}" alt="First slide">
+      </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="{{asset('images/61214232_685469581887804_3222479632515203072_n.jpg')}}" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-80" src="{{asset('images/61214232_685469581887804_3222479632515203072_n.jpg')}}" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-80" src="{{asset('images/66199600_712644059170356_1051043127999070208_n.jpg')}}" alt="Third slide">
+      <img class="d-block w-100" src="{{asset('images/61214232_685469581887804_3222479632515203072_n.jpg')}}" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -97,6 +100,7 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
 
 
 </div>
