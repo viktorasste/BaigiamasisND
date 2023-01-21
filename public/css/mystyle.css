@@ -159,3 +159,11 @@ footer{
   .footpic{
     margin:  0 auto;
   }
+
+
+  .d-block{
+    width: 500px !important;
+    height: 500px !important;
+  }
+
+  
