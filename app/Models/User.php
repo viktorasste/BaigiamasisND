@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+// use Faker\Generator as Faker;
 
 class User extends Authenticatable
 {
@@ -62,3 +63,13 @@ class User extends Authenticatable
         return $this->hasMany(Reservation::class);
     }
 }
+//     function (Faker $faker) {
+//     return [
+//         'name' => $faker->name,
+//         'email' => $faker->unique()->safeEmail,
+//         'password' => bcrypt('password'),
+//         'remember_token' => str_random(10),
+//     ];
+// };
+
+
