@@ -1,6 +1,7 @@
 @extends('layouts.public')
 
 @section('content')
+<div class="row m-5">
     @foreach ($reservations as $reservation)
         <div class="col-sm-3">
             <div class="card">
@@ -73,4 +74,5 @@
             </div>
         </div>
     @endforeach
+</div>
 @endsection

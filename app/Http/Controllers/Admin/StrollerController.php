@@ -46,16 +46,15 @@ class StrollerController extends Controller
     {
 //        dump($request); die;
         $request->validate([
-                               'image' => 'file|mimes:png,jpg,jpeg|max:2048',
-                               'model' => 'required',
-                               'type' => 'required',
-                               'year' => 'required',
-                               'weight' => 'required',
-                               'max_weight' => 'required',
-                               'description' => 'required',
-                               'price' => 'required',
-                           ]);
-
+            'image' => 'image|mimes:png,jpg,jpeg|max:2048',
+            'model' => 'required|string',
+            'type' => 'required|string',
+            'year' => 'required|integer',
+            'weight' => 'required|integer',
+            'max_weight' => 'required|integer',
+            'description' => 'required',
+            'price' => 'required|numeric|between:0,9999999999.99',
+        ]);
         try {
             DB::beginTransaction();
 
@@ -142,13 +141,13 @@ class StrollerController extends Controller
         $stroller = Stroller::whereId($id)->first();
         $request->validate([
                                'image' => 'image|mimes:png,jpg,jpeg|max:2048',
-                               'model' => 'required',
-                               'type' => 'required',
-                               'year' => 'required',
-                               'weight' => 'required',
-                               'max_weight' => 'required',
+                               'model' => 'required|string',
+                               'type' => 'required|string',
+                               'year' => 'required|integer',
+                               'weight' => 'required|integer',
+                               'max_weight' => 'required|integer',
                                'description' => 'required',
-                               'price' => 'required',
+                               'price' => 'required|numeric|between:0,9999999999.99',
                            ]);
 
         try {
