@@ -20,9 +20,7 @@ class StrollerController extends Controller
     {
         $strollers = Stroller::select()->get();
 
-        return view('admin.stroller.list')->with([
-                                                     'strollers' => $strollers
-                                                 ]);
+        return view('admin.stroller.list')->with(['strollers' => $strollers]);
     }
 
     /**
@@ -107,7 +105,7 @@ class StrollerController extends Controller
             }
 
             DB::commit();
-            return redirect()->route('users')->with('success', 'Stroller Deleted successfully.');
+            return redirect()->route('stroller')->with('success', 'Stroller Deleted successfully.');
         } catch (\Throwable $th) {
             DB::rollBack();
             throw $th;
